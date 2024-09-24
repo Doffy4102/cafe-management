@@ -70,7 +70,7 @@ include 'components/add_cart.php';
                         <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
                         <h3><?= $fetch_products['name']; ?></h3>
                         <div class="flex">
-                           <a style="padding-right: 120px;"><span>$</span><?= $fetch_products['price']; ?></a>
+                           <a style="padding-right: 120px;"><span>Rs</span><?= $fetch_products['price']; ?></a>
                            <input style="border: 2px solid black;" type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
                            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
 
@@ -113,7 +113,7 @@ include 'components/add_cart.php';
                         <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
                         <p><?= $fetch_products['name']; ?></p>
                         <div class="flex">
-                           <a style="padding-right: 120px;"><span>$</span><?= $fetch_products['price']; ?></a>
+                           <a style="padding-right: 120px;"><span>Rs</span><?= $fetch_products['price']; ?></a>
                            <input style="border: 1px;" type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
                            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
 
@@ -156,7 +156,7 @@ include 'components/add_cart.php';
                         <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
                         <p><?= $fetch_products['name']; ?></p>
                         <div class="flex">
-                           <a style="padding-right: 120px;"><span>$</span><?= $fetch_products['price']; ?></a>
+                           <a style="padding-right: 120px;"><span>Rs</span><?= $fetch_products['price']; ?></a>
                            <input style="border: 1px;" type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
                            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
 
@@ -199,7 +199,7 @@ include 'components/add_cart.php';
                         <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
                         <p><?= $fetch_products['name']; ?></p>
                         <div class="flex">
-                           <a style="padding-right: 120px;"><span>$</span><?= $fetch_products['price']; ?></a>
+                           <a style="padding-right: 120px;"><span>Rs</span><?= $fetch_products['price']; ?></a>
                            <input style="border: 1px;" type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
                            <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
 
